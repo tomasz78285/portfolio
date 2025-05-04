@@ -24,7 +24,7 @@ function App() {
       <section id="home" className="p-5 text-center bg-light">
         <h1 className="display-4">Witaj na mojej stronie</h1>
         <img
-          src="twoje-zdjecie.jpg"
+          src="photo/1.jpg"
           alt="Tomasz Kadłubowski"
           className="img-fluid rounded-circle my-4"
           style={{ maxWidth: '200px' }}
