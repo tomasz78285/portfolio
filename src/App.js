@@ -5,9 +5,9 @@ import 'bootswatch/dist/simplex/bootstrap.min.css';
 function App() {
   return (
     <>
-      <Navbar bg="primary" variant="dark" expand="lg" sticky="top">
+      <Navbar bg="light" variant="light" expand="lg" sticky="top">
         <Container>
-          <Navbar.Brand href="#home">Jan Kowalski</Navbar.Brand>
+          <Navbar.Brand href="#home">Tomasz Kadłubowski</Navbar.Brand>
           <Navbar.Toggle aria-controls="navbar-nav" />
           <Navbar.Collapse id="navbar-nav">
             <Nav className="ms-auto">
@@ -23,8 +23,15 @@ function App() {
 
       <section id="home" className="p-5 text-center bg-light">
         <h1 className="display-4">Witaj na mojej stronie</h1>
+        <img
+          src="twoje-zdjecie.jpg"
+          alt="Tomasz Kadłubowski"
+          className="img-fluid rounded-circle my-4"
+          style={{ maxWidth: '200px' }}
+        />
         <p className="lead">Portfolio, działalność zawodowa i więcej</p>
       </section>
+      
 
       <section id="zawodowa" className="p-5">
         <Container>
@@ -49,7 +56,7 @@ function App() {
 
       <section id="kontakt" className="p-5 bg-light text-center">
         <h2>Kontakt</h2>
-        <p>kontakt@jan-kowalski.pl</p>
+        <p>kad.tom@wp.pl</p>
       </section>
     </>
   );
